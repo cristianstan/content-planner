@@ -1,0 +1,50 @@
+/**
+ * Folding and unfolding
+ */
+.content-planner-list li {
+	border-left: 5px solid #f4f4f4;
+	border-top: 1px solid #ddd;
+	clear: both;
+	float: left;
+	list-style: none;
+	padding: 5px 30px 10px 10px;
+}
+
+.content-planner-list li .post-title {
+	cursor: pointer;
+}
+
+.extended-info {
+	display: block;
+	font-style: italic;
+}
+
+
+/**
+ * Badger
+ */
+.content-planner-list li {
+	position: relative;
+}
+
+.issue-badge {
+	display: none;
+}
+
+
+/**
+ * Front-end Editor
+ */
+.fee-initialized.highlight {
+	background: #f7efb3;
+}
+
+.fee-hover-container button {
+	border-radius: 0;
+}
+
+.fee-hover-container button.fee-hover-edit {
+	border: 1px solid black;
+	text-decoration: none;
+	text-shadow: none;
+}
